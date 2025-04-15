@@ -127,5 +127,7 @@ function merge<T, U>(a: T, b: U){
         ...b
     };
 }
-const newUser = merge<{name: string},{age: number}>({name: "Saumya"},{age: number});
+const newUser = merge<{name: string},{age: number}>({name: "Saumya"},{age: 25});
 newUser.name;
+
+export {};

@@ -1,3 +1,4 @@
+"use strict";
 var __assign = (this && this.__assign) || function () {
     __assign = Object.assign || function(t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
@@ -9,6 +10,7 @@ var __assign = (this && this.__assign) || function () {
     };
     return __assign.apply(this, arguments);
 };
+Object.defineProperty(exports, "__esModule", { value: true });
 var userName = "Saumya";
 var API_KEY = "abc";
 var number;
@@ -80,5 +82,5 @@ var userStorage = {
 function merge(a, b) {
     return __assign(__assign({}, a), b);
 }
-var newUser = merge({ name: "Saumya" }, { age: number });
+var newUser = merge({ name: "Saumya" }, { age: 25 });
 newUser.name;
